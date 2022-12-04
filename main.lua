@@ -9,8 +9,8 @@ function love.load()
     WW, WH = 650, 360
     h0 = 100
 
-    font = love.graphics.newFont("GILLUBCD.TTF", 20)
-    font2 = love.graphics.newFont("ITCKRIST.TTF", 10)
+    font = love.graphics.newFont("fonts/GILLUBCD.TTF", 20)
+    font2 = love.graphics.newFont("fonts/ITCKRIST.TTF", 10)
 
     -- rct.y is the reference, variable that if it changes, other variables changes
     -- down rectangle
